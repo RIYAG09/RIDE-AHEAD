@@ -1,0 +1,199 @@
+{
+  "user": [
+    {
+      "id": "d874",
+      "name": "Jhon",
+      "password": "P@ssw0rd1",
+      "email": "example@email.com",
+      "role": "",
+      "mobile": "1234567890"
+    },
+    {
+      "id": "d698",
+      "name": "Jhon",
+      "password": "P@ssw0rd1",
+      "email": "test.riya@gmail.com",
+      "role": "2",
+      "mobile": "8762391864"
+    },
+    {
+      "id": "753c",
+      "name": "Jhon",
+      "password": "P@ssw0rd1",
+      "email": "test.riya@gmail.com",
+      "role": "2",
+      "mobile": "1234567890"
+    }
+  ],
+  "product": [
+    {
+      "brand": "Kiger ",
+      "carId": 1,
+      "imageUrl": "https://zoomcar-assets.zoomcar.com/73085/HostCarImage/host_car_image_730854d2d0492-c9b8-4bef-bc1f-16a09c6eae37.jpg20231122-41-1gjc58k",
+      "locationId": 1,
+      "name": "Renault Kiger 2022",
+      "pricingDescription": "200",
+      "registeredOn": "2023-11-18T15:14:06.53",
+      "locationTitle": "Shankar Nagar, Nagpur",
+      "carAccessories": [
+        {
+          "accessoriesId": 1,
+          "accessoriesTitle": "5 seater",
+          "showOnWebsite": true,
+          "carId": 1
+        },
+        {
+          "accessoriesId": 2,
+          "accessoriesTitle": "AC",
+          "showOnWebsite": true,
+          "carId": 1
+        }
+      ],
+      "id": "7512"
+    },
+    {
+      "brand": "Maruti ",
+      "carId": 2,
+      "imageUrl": "https://zoomcar-assets.zoomcar.com/2654/HostCarImage/open-uri20230130-15615-1ylqllada430ba0-85c1-49b0-8ec1-27658622a6fa",
+      "locationId": 2,
+      "name": "Maruti Suzuki Wagon R 2020",
+      "pricingDescription": "200",
+      "registeredOn": "2023-11-18T15:14:06.53",
+      "locationTitle": "Shankar Nagar, Nagpur",
+      "carAccessories": [
+        {
+          "accessoriesId": 3,
+          "accessoriesTitle": "4 seater",
+          "showOnWebsite": true,
+          "carId": 2
+        },
+        {
+          "accessoriesId": 4,
+          "accessoriesTitle": "AC",
+          "showOnWebsite": true,
+          "carId": 2
+        }
+      ],
+      "id": "bbd3"
+    },
+    {
+      "brand": "Tata",
+      "carId": 3,
+      "imageUrl": "https://zoomcar-assets.zoomcar.com/73085/HostCarImage/host_car_image_730854d2d0492-c9b8-4bef-bc1f-16a09c6eae37.jpg20231122-41-1gjc58k",
+      "locationId": 3,
+      "name": "Tata Nexon 2023",
+      "pricingDescription": "350",
+      "registeredOn": "2023-11-18T15:14:06.53",
+      "locationTitle": "Shankar Nagar, Nagpur",
+      "carAccessories": [
+        {
+          "accessoriesId": 4,
+          "accessoriesTitle": "5 seater",
+          "showOnWebsite": true,
+          "carId": 3
+        },
+        {
+          "accessoriesId": 5,
+          "accessoriesTitle": "AC",
+          "showOnWebsite": true,
+          "carId": 3
+        }
+      ],
+      "id": "0e2b"
+    },
+    {
+      "brand": "Maruti",
+      "carId": 4,
+      "imageUrl": "https://zoomcar-assets.zoomcar.com/239491/HostCarImage/host_car_image_23949190fa31a6-f471-41a0-b993-811936e44276.jpg20230421-51-laymhe",
+      "locationId": 4,
+      "name": "Maruti Suzuki BALENO 2023",
+      "pricingDescription": "400",
+      "registeredOn": "2023-11-18T15:14:06.53",
+      "locationTitle": "Shankar Nagar, Nagpur",
+      "carAccessories": [
+        {
+          "accessoriesId": 2,
+          "accessoriesTitle": "5 seater",
+          "showOnWebsite": true,
+          "carId": 4
+        },
+        {
+          "accessoriesId": 3,
+          "accessoriesTitle": "AC",
+          "showOnWebsite": true,
+          "carId": 4
+        }
+      ],
+      "id": "ca71"
+    },
+    {
+      "brand": "Mahindra",
+      "carId": 5,
+      "imageUrl": "https://zoomcar-assets.zoomcar.com/490909/HostCarImage/host_car_image_490909487714b2-3c37-4942-8955-c58af72a2b0b.jpg20231218-42-z9u864",
+      "locationId": 5,
+      "name": "Mahindra XUV 300 2023",
+      "pricingDescription": "645",
+      "registeredOn": "2023-11-18T15:14:06.53",
+      "locationTitle": "Shankar Nagar, Nagpur",
+      "carAccessories": [
+        {
+          "accessoriesId": 6,
+          "accessoriesTitle": "7 seater",
+          "showOnWebsite": true,
+          "carId": 5
+        },
+        {
+          "accessoriesId": 7,
+          "accessoriesTitle": "AC",
+          "showOnWebsite": true,
+          "carId": 5
+        }
+      ],
+      "id": "6c82"
+    },
+    {
+      "id": "4e02",
+      "brand": "Suzuki",
+      "carId": "123",
+      "imageUrl": "gdf.jpeg",
+      "locationId": "12322",
+      "name": "jhon",
+      "pricingDescription": "900",
+      "registeredOn": "2025-23-22",
+      "locationTitle": "city",
+      "accessoriesTitle": "djdje",
+      "accessoriesId": "e3Sd",
+      "showOnWebsite": true
+    },
+    {
+      "id": "672d",
+      "brand": "Suzuki",
+      "carId": "23223",
+      "imageUrl": "ksjfehj.jpeg",
+      "locationId": "12322",
+      "name": "djdjjd",
+      "pricingDescription": "jkewfjsnjf",
+      "registeredOn": "2025-23-22",
+      "locationTitle": "sdkdkd",
+      "accessoriesTitle": "djdje",
+      "accessoriesId": "e3Sd",
+      "showOnWebsite": true,
+      "stateData": true
+    },
+    {
+      "id": "cf7e",
+      "brand": "Suzuki",
+      "carId": "23223",
+      "imageUrl": "https://zoomcar-assets.zoomcar.com/73085/HostCarImage/host_car_image_730854d2d0492-c9b8-4bef-bc1f-16a09c6eae37.jpg20231122-41-1gjc58k",
+      "locationId": "12322",
+      "name": "jhon",
+      "pricingDescription": "jkewfjsnjf",
+      "registeredOn": "2025-23-22",
+      "locationTitle": "sdkdkd",
+      "accessoriesTitle": "djdje",
+      "accessoriesId": "e3Sd",
+      "showOnWebsite": true,
+      "stateData": false
+    }
+  ]
+}

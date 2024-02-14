@@ -1,0 +1,62 @@
+<div class="car-list-home-container">
+    <div class="car-list-home">
+        <div class="row">
+            <div class="col-3">
+                <section class="car-list-card">
+                    <div *ngFor="let user of userList">
+                        <div class="car-list-card-image" style="height: 180px;"><img [src]="user?.imageUrl">
+                        </div>
+                        <div class="car-list-card-description">
+                            <div class="car-list-card-description-reviews">
+                                <div class="car-list-card-description-reviews-icon">
+                                    <i class='bx bxs-star'></i>
+                                </div>
+                                <div class="car-list-card-description-reviews-value">
+                                4.98
+                                </div>
+                                <div class="car-list-card-description-reviews-count">
+
+                                </div>
+                            </div>
+                            <div class="car-list-card-description-title">
+                                {{user?.brand}}  {{user?.name}}
+                            </div>
+                            <div class="car-list-card-description-properties">
+                                <div class="car-list-card-description-properties-property" *ngFor="let details of user?.carAccessories">
+                                    {{details.accessoriesTitle}}
+                                    <div class="property-point"></div>
+                                </div>
+                            
+                            </div>
+                        </div>
+                        <div class="car-list-card-price-distance">
+                        <div class="car-list-card-price">
+                            <div class="car-list-card-price-availability-text">
+                                Available form {{user?.registeredOn | date:' MMMM d'}}
+                            </div>
+                            <div class="car-list-card-price-title">
+                                ₹{{user?.pricingDescription}}/hr
+                            </div>
+                            <div class="car-list-card-price-sub-title">
+
+                            </div>
+                        </div>
+                        <div class="car-list-card-distance">
+                            <i class="bx bx-current-location"></i>
+                            <!-- <img src="C:/Users/2308271/OneDrive - Cognizant/Desktop/RIDE_AHEAD/ride_ahead/src/assets/travel.png"> -->
+                            <div class="car-list-card-distance-place">
+                                {{user?.locationTitle}}
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div [ngStyle]="{'color': user.stateData ? 'red' : 'black'}">
+                        {{ user.stateData ? 'Booked' : 'Unbooked' }}
+                      </div>
+                      <button class="btn btn-success btn-sn" *ngIf="!user.stateData">Book Now</button>
+                    </div>
+                </section>
+                </div>
+
+
+

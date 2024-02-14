@@ -1,0 +1,39 @@
+<section class="vh-100 gradient-custom">
+    <div class="container py-5 h-100">
+      <div class="row justify-content-center align-items-center h-100">
+        <div class="col-12 col-lg-9 col-xl-7">
+          <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+            <div class="card-body p-4 p-md-5">
+              <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Login</h3>
+              <form [formGroup]="loginForm" (ngSubmit)="proceedLogin()">
+  
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                    <div class="form-outline">
+                      <input type="text" placeholder="Name" id="Name" class="form-control form-control-lg" formControlName="Username"/>
+                      <label class="form-label" for="Name">Name</label>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 mb-4 pb-2">
+                      <div class="form-outline">
+                        <input type="password" id="pass" placeholder="Type Your Password" class="form-control form-control-lg" formControlName="password"/>
+                        <label class="form-label" for="pass">Password </label>
+                      </div>
+                    </div>
+                  </div>
+  
+                <div class="mt-4 pt-2">
+                  <input class="btn btn-primary btn-lg" type="submit" value="Submit" />
+                  <p class="text-center text-muted mt-5 mb-0">Don't have account?<a routerLink="/register" class="fw-bold text-body"><u>Register here</u></a></p>
+                </div>
+  
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

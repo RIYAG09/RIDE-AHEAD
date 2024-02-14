@@ -1,0 +1,103 @@
+<section class="vh-100 gradient-custom">
+    <div class="container py-5 h-100">
+        <div class="row justify-content-center align-items-center h-100">
+            <div class="col-12 col-lg-9 col-xl-7">
+                <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+                    <div class="card-body p-4 p-md-5">
+                        <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Registration Form For Owner</h3>
+                        <form [formGroup]="RegisterForm" (ngSubmit)="Registration()">
+
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <div class="form-outline">
+                                        <label class="form-label" for="brand">Brand:</label>
+                                        <input type="text" placeholder="Enter Your Brand" id="brand" class="form-control form-control-lg" formControlName="brand">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4 pb-2">
+                                    <div class="form-outline">
+                                        <label class="form-label" for="carId">Car ID:</label>
+                                        <input type="text" placeholder="Enter Your CarID" id="carId" class="form-control form-control-lg" formControlName="carId">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <div class="form-outline">
+                                        <label class="form-label" for="imageUrl">Image URL:</label>
+                                        <input type="text" placeholder="Enter Your ImageURL" id="imageUrl" class="form-control form-control-lg" formControlName="imageUrl">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4 pb-2">
+                                    <div class="form-outline">
+                                        <label class="form-label" for="locationId">Location ID:</label>
+                                        <input type="text" placeholder="Enter Your LocationId" id="locationId" class="form-control form-control-lg" formControlName="locationId">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <div class="form-outline">
+                                        <label class="form-label" for="name">Modal Name:</label>
+                                        <input type="text" placeholder="Enter The Name Of Your Car" id="name" class="form-control form-control-lg" formControlName="name">
+                                     </div>
+                                </div>
+                                <div class="col-md-6 mb-4 pb-2">
+                                    <div class="form-outline">
+                                        <label class="form-label" for="pricingDescription">Pricing Description:</label>
+                                        <input type="text" placeholder="Enter The Rate Of The Car" id="pricingDescription" class="form-control form-control-lg" formControlName="pricingDescription">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <div class="form-outline">
+                                        <label class="form-label" for="registeredOn">Registered On:</label>
+                                        <input type="text" placeholder="Enter The Date On Which The Car Is Avilabe" id="registeredOn" class="form-control form-control-lg" formControlName="registeredOn">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4 pb-2">
+                                    <div class="form-outline">
+                                        <label class="form-label" for="locationTitle">Location Title:</label>
+                                        <input type="text" placeholder="Enter The Location" id="locationTitle" class="form-control form-control-lg" formControlName="locationTitle">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <div class="form-outline">
+                                        <label class="form-label" for="accessoriesId">Accessories ID:</label>
+                                        <input type="text" placeholder="Enter The Accessories ID" id="accessoriesId"  class="form-control form-control-lg" formControlName="accessoriesId">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-4 pb-2">
+                                    <div class="form-outline">
+                                        <label class="form-label" for="accessoriesTitle">Accessories Title:</label>
+                                        <input type="text"  placeholder="Enter The Accessories Title" id="accessoriesTitle" class="form-control form-control-lg" formControlName="accessoriesTitle">
+                                    </div>
+                                </div>
+                            </div>
+                            
+
+                            <div class="row">
+                                <div class="col-12">
+                                    <input type="checkbox" id="showOnWebsite" formControlName="showOnWebsite" >
+                                    <label for="showOnWebsite"> Show on website</label><br>
+                                </div>
+                            </div>
+
+                            <div class="mt-4 pt-2">
+                                <button class="btn btn-primary btn-lg" type="submit" >Submit</button>
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
